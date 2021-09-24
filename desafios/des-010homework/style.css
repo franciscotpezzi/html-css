@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "IDroid.otf";
+    src: url("./fontes/IDroid.otf");
+}
+body{
+    background-color: rgba(37, 161, 141, 0.486);
+}
+header{
+    background-image: linear-gradient(to bottom, lightgreen, green);
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+#menu{
+    display: inline;
+    margin: auto 55% auto auto;
+}
+
+#principal{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+#principal h1,h2{
+    color: green;
+    font-family: "IDroid.otf" ;
+}
+#principal p{
+    text-indent: 30px;
+}
+img{
+    display: block;
+    margin: auto;
+}
